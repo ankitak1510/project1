@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  rgb(132, 150, 132);
+}
+
+header{
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom:30px;
+    background-image: url("https://wallpaperaccess.com/full/1132439.jpg")
+}
+header h1{
+    padding: 40px;
+    font-size:100px;
+    /* background: green; */
+    font-family:fantasy;
+    text-decoration-color: aliceblue;
+}
+ header ul{
+     display:grid;
+     
+     padding:10px;
+     font-size:22px;
+     font-weight: 200;
+     justify-content:first baseline;
+     list-style-type:disc;
+     border-bottom: 1rem black;
+     position: fixed;
+     background: rgb(23, 99, 49);
+     
+     width:100%;
+     z-index:1;
+
+     
+
+ }
+ header ul li{
+     text-decoration-color: aliceblue;
+ }
+
+
+ section h2{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+     padding: 20%;
+     font-size:30px;
+ }
+
+ .container{
+     max-width: 900px;
+     margin :0 auto;
+     padding:20px 30px;
+
+ }
+ #indoor-plants{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+ }
+
+ #indoor-plants div{
+    margin:30px;
+}
+#indoor-plants div h3{
+    margin-bottom: 15px;
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    width:100%
+
+}
+
+#indoor-plants.product-details{
+    display:flex;
+    margin:8px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+img{
+     max-height: 500px;
+     max-width:500px;
+ }
+
+
+ #outdoor-plants{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  
+}
+
+#outdoor-plants div{
+    margin:30px;
+}
+#outdoor-plants div div h3{
+    margin-bottom: 15px;
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    width:100%
+
+}
+
+#outdoor-plants.product-details{
+    display:flex;
+    margin:8px;
+    align-items: center;
+    justify-content:center;
+}
+ footer{
+     background: green;
+ }
